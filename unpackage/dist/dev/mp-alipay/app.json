@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/order/order",
+    "pages/button/button",
+    "pages/griditem/griditem1",
+    "pages/griditem/griditem2",
+    "pages/griditem/griditem3",
+    "pages/griditem/griditem4",
+    "pages/griditem/griditem5",
+    "pages/griditem/griditem6",
+    "pages/griditem/griditem7",
+    "pages/griditem/griditem8",
+    "pages/griditem/griditem9",
+    "pages/list/list1",
+    "pages/list/list2",
+    "pages/list/list3",
+    "pages/list/list4"
+  ],
+  "subPackages": [],
+  "window": {
+    "titleBarColor": "#0faeff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#009eff",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/main/main",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "name": "预约"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "name": "商城"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的 "
+      }
+    ]
+  },
+  "usingComponents": {}
+}

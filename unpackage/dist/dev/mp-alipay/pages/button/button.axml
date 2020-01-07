@@ -1,0 +1,1 @@
+<uni-goods-nav style="width:100%;" vue-id="1" fill="{{true}}" options="{{options}}" button-group="{{buttonGroup}}" data-event-opts="{{[['^click',[['onClick']]],['^buttonClick',[['buttonClick']]]]}}" onClick="__e" onButtonClick="__e" onVueInit="__l"></uni-goods-nav>

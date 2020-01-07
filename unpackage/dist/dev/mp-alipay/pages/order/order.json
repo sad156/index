@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "预约",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "tab-control": "/components/tabControl-tag/tabControl-tag",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

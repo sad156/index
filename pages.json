@@ -1,0 +1,180 @@
+{
+	"globalStyle": { "navigationStyle": "custom" },
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "依泰",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark",
+				// 自定义导航栏
+				"app-plus": {  
+				            "titleNView": {
+				                "buttons": [  
+				                    {  
+				                        "text": "\ue670",  
+				                        "fontSrc": "/static/iconfont.ttf",  
+				                        "fontSize": "22px",  
+				                        "float": "left"  
+				                    },  
+				                    {  
+				                        "text": "\ue62c",  
+				                        "fontSrc": "/static/iconfont.ttf",  
+				                        "fontSize": "22px"  
+				
+				                    }  
+				                ],  
+				                "searchInput":{
+				                }
+				            }  
+				        }  
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		}, {
+	        "path":"pages/order/order",
+	        "style": {
+	            "navigationBarTitleText": "预约",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+	        }
+	    },
+		{
+		    "path": "pages/button/button",
+		    "style": {
+		        "navigationBarTitleText": "按钮跳转来的"
+		    }
+		},{
+		    "path": "pages/griditem/griditem1",
+		    "style": {
+		        "navigationBarTitleText": "宫格一"
+		    }
+		},{
+		    "path": "pages/griditem/griditem2",
+		    "style": {
+		        "navigationBarTitleText": "宫格二"
+		    }
+		},{
+		    "path": "pages/griditem/griditem3",
+		    "style": {
+		        "navigationBarTitleText": "宫格三"
+		    }
+		},{
+		    "path": "pages/griditem/griditem4",
+		    "style": {
+		        "navigationBarTitleText": "宫格四"
+		    }
+		},{
+		    "path": "pages/griditem/griditem5",
+		    "style": {
+		        "navigationBarTitleText": "宫格五"
+		    }
+		},{
+		    "path": "pages/griditem/griditem6",
+		    "style": {
+		        "navigationBarTitleText": "宫格六"
+		    }
+		},{
+		    "path": "pages/griditem/griditem7",
+		    "style": {
+		        "navigationBarTitleText": "宫格七"
+		    }
+		},{
+		    "path": "pages/griditem/griditem8",
+		    "style": {
+		        "navigationBarTitleText": "宫格八"
+		    }
+		},{
+		    "path": "pages/griditem/griditem9",
+		    "style": {
+		        "navigationBarTitleText": "宫格九"
+		    }
+		}, {
+			"path": "pages/list/list1",
+			"style": {
+				"navigationBarTitleText": "列表一"
+			}
+		}, {
+			"path": "pages/list/list2",
+			"style": {
+				"navigationBarTitleText": "列表二"
+			}
+		}, {
+			"path": "pages/list/list3",
+			"style": {
+				"navigationBarTitleText": "列表三"
+			}
+		}, {
+			"path": "pages/list/list4",
+			"style": {
+				"navigationBarTitleText": "列表四"
+			}
+		}
+		
+	],
+	"tabBar": {
+	        "color": "#7A7E83",
+	        "selectedColor": "#009eff",
+	        "borderStyle": "black",
+	        "backgroundColor": "#ffffff",
+	        "height": "50px",
+	        "fontSize": "10px",
+	        "iconWidth": "24px",
+	        "spacing": "3px",
+	        "list": [{
+	            "pagePath": "pages/main/main",
+	            "text": "首页"
+				// 底部导航栏图标
+				// "iconPath":"static/tabbar/my.png",
+				// "selectedIconPath":"static/tabbar/myed.png"
+	        }, {
+	            "pagePath": "pages/order/order",
+	            "text": "预约"
+	        },{
+	            "pagePath": "pages/shop/shop",
+	            "text": "商城"
+	        },{
+	            "pagePath": "pages/user/user",
+	            "text": "我的 "
+	        }]
+	        // "midButton": {
+	        //     "width": "80px",
+	        //     "height": "50px",
+	        //     "text": "文字",
+	        //     "iconPath": "static/image/midButton_iconPath.png",
+	        //     "iconWidth": "24px",
+	        //     "backgroundImage": "static/image/midButton_backgroundImage.png"
+	        // }
+	    },
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}

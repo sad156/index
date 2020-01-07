@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "预约",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "tab-control": "/components/tabControl-tag/tabControl-tag",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

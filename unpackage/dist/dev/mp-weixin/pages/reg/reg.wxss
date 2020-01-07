@@ -1,0 +1,11 @@
+
+.m-inputm-input-view {
+		display: -webkit-box !important;
+		display: -webkit-flex !important;
+		display: flex !important;
+		-webkit-box-align: center !important;
+		-webkit-align-items: center !important;
+		        align-items: center !important;
+		width: 70% !important
+}
+
